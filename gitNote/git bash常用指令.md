@@ -22,3 +22,29 @@ git pull origin main --allow-unrelated-histories
 git push -u origin main
 ~~~
 
+推送
+
+
+
+~~~
+git add .
+git add <filename>    # 添加特定文件
+~~~
+
+git add：将修改添加到暂存区
+
+
+
+~~~
+git commit -m "my commit msg"
+~~~
+
+git commit：将暂存区的内容提交到本地仓库
+
+
+
+~~~
+git push 
+~~~
+
+git push：将本地提交推送到远程仓库
